@@ -23,6 +23,7 @@ const appInsightsTransport = new winston.transports.Console({
     })
 });
 
+
 export const logger = winston.createLogger({
     level: "info",
     format: winston.format.combine(
